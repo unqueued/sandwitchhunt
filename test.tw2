@@ -53,5 +53,5 @@ You're still locked in an embrace when the armed guard comes and separates you. 
 
 
 ::Configuration [twee2]
-Twee2::build_config.story_ifid = '41AB7776-D198-40F5-BD54-0493D49DA58C'
-Twee2::build_config.story_format = 'Sugarcube'
+Twee2::build_config.story_ifid = '7CA8C1F7-0D9D-4526-980B-883910B4D2E6'
+Twee2::build_config.story_format = 'SugarCube'
