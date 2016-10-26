@@ -1,0 +1,8 @@
+::StoryTitle
+Sandwitch Hunt
+
+::Start
+
+::Configuration [twee2]
+Twee2::build_config.story_ifid = 'E7D68D7E-C9C8-4016-BB9F-1BC17070CCAC'
+Twee2::build_config.story_format = 'SugarCube'
