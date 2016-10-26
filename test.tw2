@@ -50,3 +50,8 @@ You're still locked in an embrace when the armed guard comes and separates you. 
 "I wanted you to take this," your sister says, thrusting the photo into your hands. You recognise the photo: you took it at arms-reach to capture the pair of you, sitting out on the grass under a starry sky while, in the background, your father shows off a telescope to a group of onlookers. You stuff it into your pocket before the security guard arrives to shepherd you back towards the rocket ship. Weeks later, you'll frame it in your new home on Mars, and it will come to represent everything that you left behind in order to be there. But right now, all you want is one final hug before takeoff.
 
 **THE END**
+
+
+::Configuration [twee2]
+Twee2::build_config.story_ifid = '41AB7776-D198-40F5-BD54-0493D49DA58C'
+Twee2::build_config.story_format = 'Sugarcube'
