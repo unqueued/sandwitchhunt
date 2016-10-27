@@ -18,6 +18,7 @@ Twee2::build_config.story_format = 'SugarCube'
 
 ::MyStylesheet [stylesheet]
 
+/*
 body {
   background: #eee;
 }
@@ -33,3 +34,10 @@ tw-passage tw-link {
 	border-color: yellow;
 	background-color: green;
 }
+*/
+
+/* HOW THE HELL DO I REMOVE SIDEBAR? */
+#sidebar {
+	display: none;
+}
+
