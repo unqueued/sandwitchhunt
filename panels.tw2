@@ -93,19 +93,15 @@
 
 ::Panel 13
 
-[img[assets/Panel 13/1.png]]
-[img[assets/Panel 13/2.png]]
-[img[assets/Panel 13/3.png]]
-[img[assets/Panel 13/4.png]]
-[img[assets/Panel 13/5.png]]
+[img[assets/Panel 13/1.png]][img[assets/Panel 13/2.png]][img[assets/Panel 13/3.png]]
+[img[assets/Panel 13/4.png]][img[assets/Panel 13/5.png]]
 
 [[Panel 14]]
 
 
 ::Panel 14
 
-[img[assets/Panel 14/1.png]]
-[img[assets/Panel 14/2.png]]
+[img[assets/Panel 14/1.png]][img[assets/Panel 14/2.png]]
 
 [[Panel 15]]
 
@@ -113,9 +109,7 @@
 ::Panel 15
 
 
-[img[assets/Panel 15/1.png]]
-[img[assets/Panel 15/2.png]]
-[img[assets/Panel 15/3.png]]
+[img[assets/Panel 15/1.png]][img[assets/Panel 15/2.png]][img[assets/Panel 15/3.png]]
 [img[assets/Panel 15/4.png]]
 
 [[Panel 16]]
@@ -134,15 +128,13 @@
 <img src="assets/Panel 17/1.png" />
 
 [[Panel 18a]]
-[[Panel 18b-c]]
+[[Panel 18b]]
+[[Panel 18c]]
 
 ::Panel 18a
 
-[img[assets/Panel 18a/1.png]]
-[img[assets/Panel 18a/2.png]]
-[img[assets/Panel 18a/3.png]]
-[img[assets/Panel 18a/4.png]]
-[img[assets/Panel 18a/5.png]]
+[img[assets/Panel 18a/1.png]][img[assets/Panel 18a/2.png]][img[assets/Panel 18a/3.png]]
+[img[assets/Panel 18a/4.png]][img[assets/Panel 18a/5.png]]
 
 [[Panel 19a]]
 
@@ -150,8 +142,9 @@
 
 ## INSERT 
 
-[img[assets/Panel 19a + 20a + 21a/1.png]]
-[img[assets/Panel 19a + 20a + 21a/2.png]]
+[img[assets/Panel 19a + 20a + 21a/1.png]][img[assets/Panel 19a + 20a + 21a/2.png]]
+
+END
 
 ::Panel 18b
 B
@@ -160,10 +153,9 @@ B
 [[Panel 19b]]
 
 ::Panel 19b
-[img[assets/Panel 19b/1.png]]
-[img[assets/Panel 19b/2.png]]
-[img[assets/Panel 19b/3.png]]
+[img[assets/Panel 19b/1.png]][img[assets/Panel 19b/2.png]][img[assets/Panel 19b/3.png]]
 
+[[Panel 20b]]
 
 
 ::Panel 18c
@@ -175,66 +167,80 @@ C
 
 ::Panel 19c
 
-[img[assets/Panel 19c/1.png]]
-[img[assets/Panel 19c/2.png]]
-[img[assets/Panel 19c/3.png]]
+[img[assets/Panel 19c/1.png]][img[assets/Panel 19c/2.png]][img[assets/Panel 19c/3.png]]
 
 [[Panel 20c]]
 
 
-:: Panel 20c
+::Panel 20c
 
 [img[assets/Panel 20c/1.png]]
 
 [[Panel 21c]]
 
 
-::Panel 22c
+::Panel 21c
 
-[img[assets/Panel 21c/1.png]]
-[img[assets/Panel 21c/2.png]]
+[img[assets/Panel 21c/1.png]][img[assets/Panel 21c/2.png]]
 
 [[Panel 22c]]
 
+
 ::Panel 22c
 
-[img[assets/Panel 22c/1.png]]
-[img[assets/Panel 22c/2.png]]
-[img[assets/Panel 22c/3.png]]
+[img[assets/Panel 22c/1.png]][img[assets/Panel 22c/2.png]][img[assets/Panel 22c/3.png]]
 
 [[Panel 23c]]
 
 ::Panel 23c
 
 [img[assets/Panel 23c/1.png]]
+END
+
+B
 
 
 
 
-[img[assets/Panel 20b/1.png]]
-[img[assets/Panel 20b/2.png]]
-[img[assets/Panel 20b/3.png]]
+::Panel 20b
 
-[img[assets/Panel 21b/1.png]]
-[img[assets/Panel 21b/2.png]]
+[img[assets/Panel 20b/1.png]][img[assets/Panel 20b/2.png]][img[assets/Panel 20b/3.png]]
+
+[[Panel 21b]]
 
 
-[img[assets/Panel 22b-a/1.png]]
-[img[assets/Panel 22b-a/2.png]]
-[img[assets/Panel 22b-a/3.png]]
+::Panel 21b
+
+[img[assets/Panel 21b/1.png]][img[assets/Panel 21b/2.png]]
+
+[[Panel 22b-a]]
+[[Panel 22b-b]]
+
+
+::Panel 22b-a
+
+[img[assets/Panel 22b-a/1.png]][img[assets/Panel 22b-a/2.png]][img[assets/Panel 22b-a/3.png]]
+
+[[Panel 22b-a]]
+
+
+::Panel 22b-a
+
+[img[assets/Panel 23b-a/1.png]][img[assets/Panel 23b-a/2.png]][img[assets/Panel 23b-a/3.png]][img[assets/Panel 23b-a/4.png]]
+
+END
+
+::Panel 22b-b
 
 [img[assets/Panel 22b-b/1.png]]
 [img[assets/Panel 22b-b/2.png]]
 [img[assets/Panel 22b-b/3.png]]
 
+[[Panel 22b-b]]
 
 
-[img[assets/Panel 23b-a/1.png]]
-[img[assets/Panel 23b-a/2.png]]
-[img[assets/Panel 23b-a/3.png]]
-[img[assets/Panel 23b-a/4.png]]
+::Panel 22b-b
 
-[img[assets/Panel 23b-b/1.png]]
-[img[assets/Panel 23b-b/2.png]]
+[img[assets/Panel 23b-b/1.png]][img[assets/Panel 23b-b/2.png]]
 
 
