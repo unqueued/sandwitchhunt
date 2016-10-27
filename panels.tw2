@@ -172,6 +172,8 @@
 ::Panel 23A
 [img[assets/A/Panel%2023A.jpg]]
 
+REstart
+[[Restart->Reboot]]
 
 ::Panel 18b
 
@@ -241,7 +243,7 @@
 		<div style="position: absolute; width: 34px; height: 10px; left: 193px; top: -165px; border: 5px solid green;"></div>
 	</a>
 </div>
-∂
+
 [[Panel 22b-a]]
 [[Panel 22b-b]]
 
@@ -256,7 +258,6 @@
 ::Panel 22b-a
 
 [img[assets/Panel 23b-a/1.png]][img[assets/Panel 23b-a/2.png]][img[assets/Panel 23b-a/3.png]][img[assets/Panel 23b-a/4.png]]
-
 [[Restart->Reboot]]
 
 ::Panel 22b-b
@@ -271,7 +272,7 @@
 ::Panel 22b-b
 
 [img[assets/Panel 23b-b/1.png]][img[assets/Panel 23b-b/2.png]]
-
+[[Restart->Reboot]]
 
 ::Reboot
 <<reboot>>

@@ -34,7 +34,7 @@ img {
 	color: black;
 }
 
-/*
+
 #ui-bar
 {
   display: none;
@@ -43,7 +43,7 @@ img {
 body {
 	margin-left: 3.5em;
 }
-*/
+
 
 /*
 .passage a {
