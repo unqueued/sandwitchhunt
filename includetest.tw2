@@ -1,9 +1,0 @@
-::@include temp2.tw2
-
-This is before include
-::@include temp2.tw2
-And this is after
-
-[[wtf]]
-
-::StoryIncludes
