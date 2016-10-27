@@ -69,10 +69,12 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
   background: grey;
 }
 
+/*
 img {
 	border: solid black 3px;
 	margin: 1px;
 }
+*/
 
 .passage {
 	color: black;
@@ -223,7 +225,19 @@ tw-passage tw-link {
 
 [[Panel 16]]</tw-passagedata><tw-passagedata pid="19" name="Panel 16" tags="" position="">[img[assets/Panel 16/1.png]]
 
-[[Panel 17]]</tw-passagedata><tw-passagedata pid="20" name="Panel 17" tags="" position="">&lt;img src="assets/Panel 17/1.png" /&gt;
+[[Panel 17]]</tw-passagedata><tw-passagedata pid="20" name="Panel 17" tags="" position="">&lt;div style="position: relative;"&gt;
+	&lt;img src="assets/Panel 17/1.png" /&gt;
+	&lt;div stlye="position: absolute; color: green; top:10px; left:0;"&gt;Hello&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div style="position: relative;"&gt;
+    &lt;img src="http://lorempixel.com/200/300" /&gt;
+    &lt;div style="position: absolute; color: green; top: 10px; left:0;"&gt;This is some content&lt;/div&gt;
+&lt;/div&gt;
+
 
 [[Panel 18a]]
 [[Panel 18b]]
