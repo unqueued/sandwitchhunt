@@ -3,6 +3,15 @@ Sandwitch Hunt
 
 ::Start
 
+This is start
+[[Panel 1]]
+[[Configuration->configurator]]
+
+::StoryIncludes
+config.tw2
+assetlist.tw2
+panels.tw2
+
 ::Configuration [twee2]
 Twee2::build_config.story_ifid = 'E7D68D7E-C9C8-4016-BB9F-1BC17070CCAC'
 Twee2::build_config.story_format = 'SugarCube'

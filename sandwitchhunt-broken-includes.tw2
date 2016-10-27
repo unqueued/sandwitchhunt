@@ -1,0 +1,25 @@
+::StoryTitle
+Sandwitch Hunt
+
+::Start
+
+This is start
+[[Configuration->configurator]]
+
+[[included]]
+[[temp3->wtf]]
+
+This is before include
+::@include temp2.tw2
+And this is after
+
+
+::configurator
+
+Including config:
+just test this time
+::@include temp.tw2
+
+::StoryIncludes
+temp3.tw2
+temp2.tw2
