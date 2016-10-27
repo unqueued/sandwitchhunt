@@ -52,6 +52,14 @@ body {
 }
 */
 
+a.link-internal {
+	font-size: 60px;
+}
+
+a {
+	font-size: 60px;
+}
+
 .clickable {
 	border: 5px solid green;
 	display: none;
