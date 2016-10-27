@@ -18,3 +18,5 @@ A B C
 Split 18b and c
 
 Panel 5:
+
+listenerBody: "function (){"complete"===document.readyState?config.loadDelay>0?setTimeout(function(){e.removeClass("init-loading")},config.loadDelay):e.removeClass("init-loading"):e.addClass("init-loading")}"

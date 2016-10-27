@@ -79,10 +79,35 @@ img {
 }
 
 /*
+#ui-bar
+{
+  display: none;
+}
+
+body {
+	margin-left: 3.5em;
+}
+*/
+
+/*
+.passage a {
+	/* This affects passage links */
+	border: 5px solid green;
+}
+*/
+
+.clickable {
+	border: 5px solid green;
+	display: none;
+}
+
+
+/*
 tw-passage tw-link {
   color: red;
 }
 
+/*
 .passage {
 	color: red;
 	border-style: solid;
@@ -92,11 +117,28 @@ tw-passage tw-link {
 }
 */
 
+*/
+
 /* HOW THE HELL DO I REMOVE SIDEBAR? */
 #sidebar {
 	display: none;
 }
-</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="">This is start
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">macros.reboot = {
+  handler: function(place, macroName, params, parser) {
+		state.restart();
+  }
+};
+
+macros.yo = {
+  handler: function(place, macroName, params, parser) {
+		alert(state);
+  }
+};
+
+function yo() {
+alert("hi");
+}
+</script><tw-passagedata pid="1" name="Start" tags="" position="">This is start
 [[Panel 1]]
 [[Panel 17]]
 [[Panel 21b]]
@@ -244,15 +286,14 @@ tw-passage tw-link {
 [img[assets/Panel 18a/4.png]][img[assets/Panel 18a/5.png]]
 
 [[Panel 19A]]</tw-passagedata><tw-passagedata pid="22" name="Panel 19A" tags="" position="">&lt;a href="#" data-passage="Panel 20A"&gt;
-[img[assets/A/Panel%2019A.jpg]]
+&lt;img src="assets/A/Panel%2019A.jpg" style="border: 5px solid green;" /&gt;
 &lt;/a&gt;</tw-passagedata><tw-passagedata pid="23" name="Panel 20A" tags="" position="">&lt;a href="#" data-passage="Panel 21A"&gt;
-[img[assets/A/Panel%2020A.jpg]]
+&lt;img src="assets/A/Panel%2020A.jpg" style="border: 5px solid green;" /&gt;
 &lt;/a&gt;</tw-passagedata><tw-passagedata pid="24" name="Panel 21A" tags="" position="">&lt;a href="#" data-passage="Panel 22A"&gt;
-[img[assets/A/Panel%2021A.jpg]]
+&lt;img src="assets/A/Panel%2021A.jpg" style="border: 5px solid green;" /&gt;
 &lt;/a&gt;</tw-passagedata><tw-passagedata pid="25" name="Panel 22A" tags="" position="">&lt;a href="#" data-passage="Panel 23A"&gt;
-[img[assets/A/Panel%2022A.jpg]]
-&lt;/a&gt;</tw-passagedata><tw-passagedata pid="26" name="Panel 23A" tags="" position="">[img[assets/A/Panel%2023A.jpg]]</tw-passagedata><tw-passagedata pid="27" name="Panel 18b" tags="" position="">B
-[img[assets/Panel 18b-c/1.png]]
+&lt;img src="assets/A/Panel%2022A.jpg" style="border: 5px solid green;" /&gt;
+&lt;/a&gt;</tw-passagedata><tw-passagedata pid="26" name="Panel 23A" tags="" position="">[img[assets/A/Panel%2023A.jpg]]</tw-passagedata><tw-passagedata pid="27" name="Panel 18b" tags="" position="">[img[assets/Panel 18b-c/1.png]]
 
 [[Panel 19b]]</tw-passagedata><tw-passagedata pid="28" name="Panel 19b" tags="" position="">[img[assets/Panel 19b/1.png]][img[assets/Panel 19b/2.png]][img[assets/Panel 19b/3.png]]
 
@@ -267,27 +308,22 @@ tw-passage tw-link {
 [[Panel 22c]]</tw-passagedata><tw-passagedata pid="33" name="Panel 22c" tags="" position="">[img[assets/Panel 22c/1.png]][img[assets/Panel 22c/2.png]][img[assets/Panel 22c/3.png]]
 
 [[Panel 23c]]</tw-passagedata><tw-passagedata pid="34" name="Panel 23c" tags="" position="">[img[assets/Panel 23c/1.png]]
-END
 
-B</tw-passagedata><tw-passagedata pid="35" name="Panel 20b" tags="" position="">[img[assets/Panel 20b/1.png]][img[assets/Panel 20b/2.png]][img[assets/Panel 20b/3.png]]
+[[Restart-&gt;Reboot]]</tw-passagedata><tw-passagedata pid="35" name="Panel 20b" tags="" position="">[img[assets/Panel 20b/1.png]][img[assets/Panel 20b/2.png]][img[assets/Panel 20b/3.png]]
 
 [[Panel 21b]]</tw-passagedata><tw-passagedata pid="36" name="Panel 21b" tags="" position="">[img[assets/Panel 21b/1.png]]&lt;div style="display: inline; position: relative;"&gt;&lt;img src="assets/Panel 21b/2.png" /&gt;
-	&lt;a href="#" data-passage="Panel 18a"&gt;
-		&lt;div style="position: absolute; width: 32px; height: 17px; left: 208px; top: -180px; border: 5px solid green;"&gt;&lt;/div&gt;
+	&lt;a href="#" data-passage="Panel 22b-a"&gt;
+		&lt;div style="position: absolute; width: 32px; height: 10px; left: 208px; top: -185px; border: 5px solid green;"&gt;&lt;/div&gt;
+	&lt;/a&gt;
+	&lt;a href="#" data-passage="Panel 22b-b"&gt;
+		&lt;div style="position: absolute; width: 34px; height: 10px; left: 193px; top: -165px; border: 5px solid green;"&gt;&lt;/div&gt;
 	&lt;/a&gt;
 &lt;/div&gt;
-
-DELETE ME
-&lt;div style="position: relative;"&gt;&lt;img src="assets/Panel 21b/2.png" /&gt;
-	&lt;a href="#" data-passage="Panel 18a"&gt;
-		&lt;div style="position: absolute; width: 32px; height: 17px; left: 208px; top: 111px; border: 5px solid green;"&gt;&lt;/div&gt;
-	&lt;/a&gt;
-&lt;/div&gt;
-
+∂
 [[Panel 22b-a]]
 [[Panel 22b-b]]</tw-passagedata><tw-passagedata pid="37" name="Panel 22b-a" tags="" position="">[img[assets/Panel 23b-a/1.png]][img[assets/Panel 23b-a/2.png]][img[assets/Panel 23b-a/3.png]][img[assets/Panel 23b-a/4.png]]
 
-END</tw-passagedata><tw-passagedata pid="38" name="Panel 22b-b" tags="" position="">[img[assets/Panel 23b-b/1.png]][img[assets/Panel 23b-b/2.png]]</tw-passagedata></tw-storydata></div>
+[[Restart-&gt;Reboot]]</tw-passagedata><tw-passagedata pid="38" name="Panel 22b-b" tags="" position="">[img[assets/Panel 23b-b/1.png]][img[assets/Panel 23b-b/2.png]]</tw-passagedata><tw-passagedata pid="39" name="Reboot" tags="" position="">&lt;&lt;reboot&gt;&gt;</tw-passagedata></tw-storydata></div>
 	<script id="script-sugarcube" type="text/javascript">
 	/*! SugarCube JS
 

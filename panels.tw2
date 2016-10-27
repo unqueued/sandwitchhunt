@@ -1,6 +1,5 @@
 ::Panel 1
 
-
 [img[assets/Panel 01/1.png]][img[assets/Panel 01/2.png]][img[assets/Panel 01/3.png]]
 
 
@@ -150,30 +149,32 @@
 [[Panel 19A]]
 
 ::Panel 19A
-<a href="#" data-passage="Panel 20A" style="border: 5px solid green">
-[img[assets/A/Panel%2019A.jpg]]
+
+<a href="#" data-passage="Panel 20A">
+<img src="assets/A/Panel%2019A.jpg" style="border: 5px solid green;" />
 </a>
 
 ::Panel 20A
-<a href="#" data-passage="Panel 21A" style="border: 5px solid green">
-[img[assets/A/Panel%2020A.jpg]]
+<a href="#" data-passage="Panel 21A">
+<img src="assets/A/Panel%2020A.jpg" style="border: 5px solid green;" />
 </a>
 
 ::Panel 21A
-<a href="#" data-passage="Panel 22A" style="border: 5px solid green">
-[img[assets/A/Panel%2021A.jpg]]
+<a href="#" data-passage="Panel 22A">
+<img src="assets/A/Panel%2021A.jpg" style="border: 5px solid green;" />
 </a>
 
 ::Panel 22A
-<a href="#" data-passage="Panel 23A" style="border: 5px solid green">
-[img[assets/A/Panel%2022A.jpg]]
+<a href="#" data-passage="Panel 23A">
+<img src="assets/A/Panel%2022A.jpg" style="border: 5px solid green;" />
 </a>
 
 ::Panel 23A
 [img[assets/A/Panel%2023A.jpg]]
 
+
 ::Panel 18b
-B
+
 [img[assets/Panel 18b-c/1.png]]
 
 [[Panel 19b]]
@@ -220,12 +221,8 @@ B
 ::Panel 23c
 
 [img[assets/Panel 23c/1.png]]
-END
 
-B
-
-
-
+[[Restart->Reboot]]
 
 ::Panel 20b
 
@@ -237,18 +234,14 @@ B
 ::Panel 21b
 
 [img[assets/Panel 21b/1.png]]<div style="display: inline; position: relative;"><img src="assets/Panel 21b/2.png" />
-	<a href="#" data-passage="Panel 18a">
-		<div style="position: absolute; width: 32px; height: 17px; left: 208px; top: -180px; border: 5px solid green;"></div>
+	<a href="#" data-passage="Panel 22b-a">
+		<div style="position: absolute; width: 32px; height: 10px; left: 208px; top: -185px; border: 5px solid green;"></div>
+	</a>
+	<a href="#" data-passage="Panel 22b-b">
+		<div style="position: absolute; width: 34px; height: 10px; left: 193px; top: -165px; border: 5px solid green;"></div>
 	</a>
 </div>
-
-DELETE ME
-<div style="position: relative;"><img src="assets/Panel 21b/2.png" />
-	<a href="#" data-passage="Panel 18a">
-		<div style="position: absolute; width: 32px; height: 17px; left: 208px; top: 111px; border: 5px solid green;"></div>
-	</a>
-</div>
-
+∂
 [[Panel 22b-a]]
 [[Panel 22b-b]]
 
@@ -264,7 +257,7 @@ DELETE ME
 
 [img[assets/Panel 23b-a/1.png]][img[assets/Panel 23b-a/2.png]][img[assets/Panel 23b-a/3.png]][img[assets/Panel 23b-a/4.png]]
 
-END
+[[Restart->Reboot]]
 
 ::Panel 22b-b
 
@@ -280,3 +273,5 @@ END
 [img[assets/Panel 23b-b/1.png]][img[assets/Panel 23b-b/2.png]]
 
 
+::Reboot
+<<reboot>>

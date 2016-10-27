@@ -35,10 +35,35 @@ img {
 }
 
 /*
+#ui-bar
+{
+  display: none;
+}
+
+body {
+	margin-left: 3.5em;
+}
+*/
+
+/*
+.passage a {
+	/* This affects passage links */
+	border: 5px solid green;
+}
+*/
+
+.clickable {
+	border: 5px solid green;
+	display: none;
+}
+
+
+/*
 tw-passage tw-link {
   color: red;
 }
 
+/*
 .passage {
 	color: red;
 	border-style: solid;
@@ -48,8 +73,27 @@ tw-passage tw-link {
 }
 */
 
+*/
+
 /* HOW THE HELL DO I REMOVE SIDEBAR? */
 #sidebar {
 	display: none;
 }
 
+::SomeAwesomeCode [script]
+
+macros.reboot = {
+  handler: function(place, macroName, params, parser) {
+		state.restart();
+  }
+};
+
+macros.yo = {
+  handler: function(place, macroName, params, parser) {
+		alert(state);
+  }
+};
+
+function yo() {
+alert("hi");
+}
