@@ -18,11 +18,21 @@ Twee2::build_config.story_format = 'SugarCube'
 
 ::MyStylesheet [stylesheet]
 
-/*
+
 body {
-  background: #eee;
+  background: grey;
 }
 
+img {
+	border: solid black 3px;
+	margin: 1px;
+}
+
+.passage {
+	color: black;
+}
+
+/*
 tw-passage tw-link {
   color: red;
 }

@@ -9,18 +9,16 @@
 
 ::Panel 2
 
+Panel 2
 [img[assets/Panel 02/1.png]]
-[img[assets/Panel 03/1.png]]
-[img[assets/Panel 03/2.png]]
-[img[assets/Panel 03/3.png]]
 
 [[Panel 3]]
 
 
 ::Panel 3
 
-[img[assets/Panel 03/1.png]]
-[img[assets/Panel 03/2.png]]
+Panel 3
+[img[assets/Panel 03/1.png]][img[assets/Panel 03/2.png]]
 [img[assets/Panel 03/3.png]]
 
 [[Panel 4]]
@@ -28,9 +26,10 @@
 
 ::Panel 4
 
+Panel 4
+ASDLIADS
 
-[img[assets/Panel 04/1.png]]
-[img[assets/Panel 04/2.png]]
+[img[assets/Panel 04/1.png]][img[assets/Panel 04/2.png]]
 [img[assets/Panel 04/3.png]]
 
 [[Panel 5]]
@@ -38,52 +37,50 @@
 
 ::Panel 5
 
-
+Panel 5
 [img[assets/Panel 05/1.png]]
 [img[assets/Panel 05/2.png]]
 
-[[Panel 3]]
+[[Panel 6]]
 
 
-::Panel 3
+::Panel 6
 
-
+Panel 6
 [img[assets/Panel 06/1.png]]
 
-[[Panel 3]]
+[[Panel 7]]
 
 
-::Panel 3
+::Panel 7
 
-
+Panel 7
 [img[assets/Panel 07/1.png]]
 [img[assets/Panel 07/2.png]]
 [img[assets/Panel 07/3.png]]
 
-[[Panel 3]]
+[[Panel 8]]
 
 
-::Panel 3
+::Panel 8
 
 
 [img[assets/Panel 08/1.png]]
 [img[assets/Panel 08/2.png]]
 [img[assets/Panel 08/3.png]]
 
-[[Panel 3]]
+[[Panel 9]]
 
 
-::Panel 3
-
+::Panel 9
 
 [img[assets/Panel 09/1.png]]
 [img[assets/Panel 09/2.png]]
 
-[[Panel 3]]
+[[Panel 10]]
 
 
-::Panel 3
-
+::Panel 10
 
 [img[assets/Panel 10/1.png]]
 [img[assets/Panel 10/2.png]]
@@ -94,7 +91,6 @@
 
 ::Panel 11
 
-
 [img[assets/Panel 11/1.png]]
 [img[assets/Panel 11/2.png]]
 [img[assets/Panel 11/3.png]]
@@ -103,7 +99,6 @@
 
 
 ::Panel 12
-
 
 [img[assets/Panel 12/1.png]]
 
