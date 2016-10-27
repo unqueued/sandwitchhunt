@@ -147,15 +147,30 @@
 [img[assets/Panel 18a/1.png]][img[assets/Panel 18a/2.png]][img[assets/Panel 18a/3.png]]
 [img[assets/Panel 18a/4.png]][img[assets/Panel 18a/5.png]]
 
-[[Panel 19a]]
+[[Panel 19A]]
 
-::Panel 19a
+::Panel 19A
+<a href="#" data-passage="Panel 20A" style="border: 5px solid green">
+[img[assets/A/Panel%2019A.jpg]]
+</a>
 
-## INSERT 
+::Panel 20A
+<a href="#" data-passage="Panel 21A" style="border: 5px solid green">
+[img[assets/A/Panel%2020A.jpg]]
+</a>
 
-[img[assets/Panel 19a + 20a + 21a/1.png]][img[assets/Panel 19a + 20a + 21a/2.png]]
+::Panel 21A
+<a href="#" data-passage="Panel 22A" style="border: 5px solid green">
+[img[assets/A/Panel%2021A.jpg]]
+</a>
 
-END
+::Panel 22A
+<a href="#" data-passage="Panel 23A" style="border: 5px solid green">
+[img[assets/A/Panel%2022A.jpg]]
+</a>
+
+::Panel 23A
+[img[assets/A/Panel%2023A.jpg]]
 
 ::Panel 18b
 B
@@ -170,7 +185,6 @@ B
 
 
 ::Panel 18c
-C
 [img[assets/Panel 18b-c/2.png]]
 
 [[Panel 19c]]
