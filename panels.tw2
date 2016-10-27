@@ -9,7 +9,6 @@
 
 ::Panel 2
 
-Panel 2
 [img[assets/Panel 02/1.png]]
 
 [[Panel 3]]
@@ -17,7 +16,6 @@ Panel 2
 
 ::Panel 3
 
-Panel 3
 [img[assets/Panel 03/1.png]][img[assets/Panel 03/2.png]]
 [img[assets/Panel 03/3.png]]
 
@@ -26,27 +24,23 @@ Panel 3
 
 ::Panel 4
 
-Panel 4
-ASDLIADS
-
-[img[assets/Panel 04/1.png]][img[assets/Panel 04/2.png]]
-[img[assets/Panel 04/3.png]]
+<div>
+<img src="assets/Panel 04/1.png" stlye="margin-right: -5px" /><img src="assets/Panel 04/2.png" />
+<img src="assets/Panel 04/3.png" />
+</div>
 
 [[Panel 5]]
 
 
 ::Panel 5
 
-Panel 5
-[img[assets/Panel 05/1.png]]
-[img[assets/Panel 05/2.png]]
+[img[assets/Panel 05/1.png]][img[assets/Panel 05/2.png]]
 
 [[Panel 6]]
 
 
 ::Panel 6
 
-Panel 6
 [img[assets/Panel 06/1.png]]
 
 [[Panel 7]]
@@ -54,9 +48,7 @@ Panel 6
 
 ::Panel 7
 
-Panel 7
-[img[assets/Panel 07/1.png]]
-[img[assets/Panel 07/2.png]]
+[img[assets/Panel 07/1.png]][img[assets/Panel 07/2.png]]
 [img[assets/Panel 07/3.png]]
 
 [[Panel 8]]
@@ -65,34 +57,28 @@ Panel 7
 ::Panel 8
 
 
-[img[assets/Panel 08/1.png]]
-[img[assets/Panel 08/2.png]]
-[img[assets/Panel 08/3.png]]
+[img[assets/Panel 08/1.png]][img[assets/Panel 08/2.png]][img[assets/Panel 08/3.png]]
 
 [[Panel 9]]
 
 
 ::Panel 9
 
-[img[assets/Panel 09/1.png]]
-[img[assets/Panel 09/2.png]]
+[img[assets/Panel 09/1.png]][img[assets/Panel 09/2.png]]
 
 [[Panel 10]]
 
 
 ::Panel 10
 
-[img[assets/Panel 10/1.png]]
-[img[assets/Panel 10/2.png]]
-[img[assets/Panel 10/3.png]]
+[img[assets/Panel 10/1.png]][img[assets/Panel 10/2.png]][img[assets/Panel 10/3.png]]
 
 [[Panel 11]]
 
 
 ::Panel 11
 
-[img[assets/Panel 11/1.png]]
-[img[assets/Panel 11/2.png]]
+[img[assets/Panel 11/1.png]][img[assets/Panel 11/2.png]]
 [img[assets/Panel 11/3.png]]
 
 [[Panel 12]]
@@ -113,21 +99,44 @@ Panel 7
 [img[assets/Panel 13/4.png]]
 [img[assets/Panel 13/5.png]]
 
-<hr />
-DONE
+[[Panel 14]]
+
+
+::Panel 14
 
 [img[assets/Panel 14/1.png]]
 [img[assets/Panel 14/2.png]]
 
+[[Panel 15]]
+
+
+::Panel 15
+
+
 [img[assets/Panel 15/1.png]]
 [img[assets/Panel 15/2.png]]
-
 [img[assets/Panel 15/3.png]]
 [img[assets/Panel 15/4.png]]
 
+[[Panel 16]]
+
+
+::Panel 16
+
+
 [img[assets/Panel 16/1.png]]
 
-[img[assets/Panel 17/1.png]]
+[[Panel 17]]
+
+
+::Panel 17
+
+<img src="assets/Panel 17/1.png" />
+
+[[Panel 18a]]
+[[Panel 18b-c]]
+
+::Panel 18a
 
 [img[assets/Panel 18a/1.png]]
 [img[assets/Panel 18a/2.png]]
@@ -135,31 +144,80 @@ DONE
 [img[assets/Panel 18a/4.png]]
 [img[assets/Panel 18a/5.png]]
 
-[img[assets/Panel 18b-c/1.png]]
-[img[assets/Panel 18b-c/2.png]]
+[[Panel 19a]]
+
+::Panel 19a
+
+## INSERT 
 
 [img[assets/Panel 19a + 20a + 21a/1.png]]
 [img[assets/Panel 19a + 20a + 21a/2.png]]
 
+::Panel 18b
+B
+[img[assets/Panel 18b-c/1.png]]
+
+[[Panel 19b]]
+
+::Panel 19b
 [img[assets/Panel 19b/1.png]]
 [img[assets/Panel 19b/2.png]]
 [img[assets/Panel 19b/3.png]]
+
+
+
+::Panel 18c
+C
+[img[assets/Panel 18b-c/2.png]]
+
+[[Panel 19c]]
+
+
+::Panel 19c
 
 [img[assets/Panel 19c/1.png]]
 [img[assets/Panel 19c/2.png]]
 [img[assets/Panel 19c/3.png]]
 
+[[Panel 20c]]
+
+
+:: Panel 20c
+
+[img[assets/Panel 20c/1.png]]
+
+[[Panel 21c]]
+
+
+::Panel 22c
+
+[img[assets/Panel 21c/1.png]]
+[img[assets/Panel 21c/2.png]]
+
+[[Panel 22c]]
+
+::Panel 22c
+
+[img[assets/Panel 22c/1.png]]
+[img[assets/Panel 22c/2.png]]
+[img[assets/Panel 22c/3.png]]
+
+[[Panel 23c]]
+
+::Panel 23c
+
+[img[assets/Panel 23c/1.png]]
+
+
+
+
 [img[assets/Panel 20b/1.png]]
 [img[assets/Panel 20b/2.png]]
 [img[assets/Panel 20b/3.png]]
 
-[img[assets/Panel 20c/1.png]]
-
 [img[assets/Panel 21b/1.png]]
 [img[assets/Panel 21b/2.png]]
 
-[img[assets/Panel 21c/1.png]]
-[img[assets/Panel 21c/2.png]]
 
 [img[assets/Panel 22b-a/1.png]]
 [img[assets/Panel 22b-a/2.png]]
@@ -169,9 +227,7 @@ DONE
 [img[assets/Panel 22b-b/2.png]]
 [img[assets/Panel 22b-b/3.png]]
 
-[img[assets/Panel 22c/1.png]]
-[img[assets/Panel 22c/2.png]]
-[img[assets/Panel 22c/3.png]]
+
 
 [img[assets/Panel 23b-a/1.png]]
 [img[assets/Panel 23b-a/2.png]]
@@ -181,4 +237,4 @@ DONE
 [img[assets/Panel 23b-b/1.png]]
 [img[assets/Panel 23b-b/2.png]]
 
-[img[assets/Panel 23c/1.png]]
+
