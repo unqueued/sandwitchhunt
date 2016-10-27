@@ -15,3 +15,21 @@ panels.tw2
 ::Configuration [twee2]
 Twee2::build_config.story_ifid = 'E7D68D7E-C9C8-4016-BB9F-1BC17070CCAC'
 Twee2::build_config.story_format = 'SugarCube'
+
+::MyStylesheet [stylesheet]
+
+body {
+  background: #eee;
+}
+
+tw-passage tw-link {
+  color: red;
+}
+
+.passage {
+	color: red;
+	border-style: solid;
+	border-width: 1px;
+	border-color: yellow;
+	background-color: green;
+}
